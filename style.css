@@ -1,0 +1,140 @@
+/* style.css */
+
+/* Basic Reset */
+body, h1, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Main Container */
+.panel {
+    max-width: 700px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: auto;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Question Container */
+#ques {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Options */
+#opt {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#opt div {
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #d6cbcb;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+#opt div:hover {
+    background-color: #e0e0e0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Score Display */
+#score {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .panel {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #ques {
+        font-size: 1.2rem;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    #score {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .panel {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size:
+    }
